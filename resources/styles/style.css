@@ -1,0 +1,26 @@
+:root {
+  --cashew: #e3ddcd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: var(--cashew);
+  width: 100%;
+  height: 100vh;
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
